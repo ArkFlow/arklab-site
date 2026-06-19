@@ -2,6 +2,12 @@
 
 Static pages for the ArkFlow legal and support site.
 
+The site is static and multilingual. `i18n.js` renders a top-right language selector and currently exposes 10 language options:
+
+- Simplified Chinese, Traditional Chinese, English, Japanese, Korean, Spanish, French, German, Portuguese, and Russian.
+
+The Simplified Chinese legal text remains the authoritative version. Other language versions are provided for reading convenience.
+
 Current public GitHub Pages URLs:
 
 - `https://arkflow.github.io/arklab-site/`
