@@ -21,4 +21,4 @@ Before App Store submission, verify all three public URLs return HTTP 200 over H
 - Privacy Policy URL: `https://arkflow.github.io/arklab-site/privacy.html`
 - Support URL: `https://arkflow.github.io/arklab-site/support.html`
 
-Also configure a support mailbox or forwarding rule for `support@arklab.top` if that address is used publicly.
+Primary support email: `arkflow@hotmail.com`.
