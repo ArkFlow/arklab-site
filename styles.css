@@ -33,9 +33,47 @@ body {
   line-height: 1.72;
 }
 
-main {
+.site-shell {
   width: min(880px, calc(100% - 36px));
   margin: 0 auto;
+}
+
+.site-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 22px 0 0;
+}
+
+.brand-link {
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.language-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.language-control select {
+  min-height: 34px;
+  max-width: min(52vw, 190px);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 30px 5px 12px;
+  background: var(--card);
+  color: var(--text);
+  font: inherit;
+}
+
+main {
   padding: 48px 0 64px;
 }
 
@@ -127,4 +165,30 @@ footer {
 
 footer a {
   font-size: 14px;
+}
+
+@media (max-width: 560px) {
+  .site-shell {
+    width: min(100% - 28px, 880px);
+  }
+
+  .site-topbar {
+    align-items: flex-start;
+    padding-top: 16px;
+  }
+
+  .language-control {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+
+  main {
+    padding: 26px 0 48px;
+  }
+
+  .card {
+    border-radius: 16px;
+    padding: 22px;
+  }
 }
