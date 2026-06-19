@@ -1,8 +1,15 @@
 # ArkFlow Legal Site
 
-Static pages for `https://arklab.top`.
+Static pages for the ArkFlow legal and support site.
 
-Deploy the contents of this `Legal/` directory as the web root for the domain:
+Current public GitHub Pages URLs:
+
+- `https://arkflow.github.io/arklab-site/`
+- `https://arkflow.github.io/arklab-site/privacy.html`
+- `https://arkflow.github.io/arklab-site/terms.html`
+- `https://arkflow.github.io/arklab-site/support.html`
+
+Target custom domain after ICP/DNS/HTTPS setup:
 
 - `https://arklab.top/`
 - `https://arklab.top/privacy.html`
@@ -11,7 +18,7 @@ Deploy the contents of this `Legal/` directory as the web root for the domain:
 
 Before App Store submission, verify all three public URLs return HTTP 200 over HTTPS and update App Store Connect metadata to use:
 
-- Privacy Policy URL: `https://arklab.top/privacy.html`
-- Support URL: `https://arklab.top/support.html`
+- Privacy Policy URL: `https://arkflow.github.io/arklab-site/privacy.html`
+- Support URL: `https://arkflow.github.io/arklab-site/support.html`
 
 Also configure a support mailbox or forwarding rule for `support@arklab.top` if that address is used publicly.
