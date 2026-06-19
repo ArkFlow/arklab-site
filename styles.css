@@ -1,0 +1,130 @@
+:root {
+  color-scheme: light dark;
+  --bg: #f6f7f4;
+  --card: #ffffff;
+  --text: #17211d;
+  --muted: #65716c;
+  --line: #dfe6df;
+  --accent: #207a52;
+  --accent-soft: #e5f3eb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101412;
+    --card: #171d1a;
+    --text: #edf3ef;
+    --muted: #a9b4ae;
+    --line: #2b3831;
+    --accent: #63c28e;
+    --accent-soft: #173624;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  line-height: 1.72;
+}
+
+main {
+  width: min(880px, calc(100% - 36px));
+  margin: 0 auto;
+  padding: 48px 0 64px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.06);
+}
+
+.eyebrow {
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0 0 6px;
+}
+
+h1 {
+  font-size: clamp(30px, 6vw, 48px);
+  line-height: 1.12;
+  margin: 0 0 10px;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 34px 0 10px;
+}
+
+h3 {
+  font-size: 17px;
+  margin: 22px 0 8px;
+}
+
+p,
+li {
+  font-size: 16px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 22px;
+}
+
+a {
+  color: var(--accent);
+  font-weight: 650;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 22px 0 0;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.notice {
+  background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 26%, transparent);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin: 20px 0;
+}
+
+footer {
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 26px;
+}
+
+footer a {
+  font-size: 14px;
+}
