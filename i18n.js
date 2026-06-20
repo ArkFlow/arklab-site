@@ -24,7 +24,7 @@
     "zh-CN": {
       common: {
         brand: "ArkFlow / 长流",
-        updated: "最后更新：2026 年 6 月 19 日",
+        updated: "最后更新：2026 年 6 月 20 日",
         authority: "翻译仅为方便阅读；如不同语言版本存在差异，以简体中文版本为准。",
         home: "法律与支持首页",
         privacy: "隐私政策",
@@ -43,14 +43,14 @@
         ],
         sections: [
           { h: "我们处理哪些数据", p: ["你在 App 内主动录入或生成的数据会保存在你的设备本地，包括但不限于："], l: ["账户名称、账户分类、余额、负债、信用卡账单字段、还款日和备注。", "资产快照、循环收支、本位币、汇率、提醒偏好和隐私模式设置。", "你选择的账户 logo，包括 App Store 搜索后选用的图标，或你从相册上传并裁剪的图片。", "截图识别结果。截图识别默认在设备本地完成，识别结果需要你确认后才会保存。"] },
-          { h: "哪些情况下会访问网络", p: ["当前版本的核心资产记录可以在不登录账号、不连接银行的情况下使用。以下功能会访问 Apple 或你主动选择的外部服务："], l: ["内购和订阅：购买、恢复购买、订阅状态和退款/撤销状态由 Apple App Store 和 StoreKit 处理。ArkFlow 不接触你的银行卡号、支付账号或完整付款凭证。", "App Store 图标搜索：当你主动使用“App Store 搜索添加”账户 logo 时，App 会把你输入的搜索关键词和所选商店地区发送到 Apple 的 iTunes Search API，并从 Apple 返回的图标地址下载你选择的图标。请避免把不必要的个人敏感信息作为搜索关键词。", "技术支持：如果你通过邮件或支持页面联系我们，你主动提供的邮箱地址、问题描述、截图或诊断信息会用于处理你的支持请求。"] },
+          { h: "哪些情况下会访问网络", p: ["当前版本的核心资产记录可以在不登录账号、不连接银行的情况下使用。以下功能会访问 Apple 或你主动选择的外部服务："], l: ["内购和订阅：购买、恢复购买、订阅状态和退款/撤销状态由 Apple App Store 和 StoreKit 处理。ArkFlow 不接触你的银行卡号、支付账号或完整付款凭证。", "iCloud Drive 备份与快照同步：当 Pro 用户主动上传、拉取或开启自动同步时，App 会把 ArkFlow 数据导出为 `.arkflowbackup` 文件并存入你自己的 iCloud Drive 容器，或从该容器读取备份。该文件由 Apple iCloud 提供存储和设备间传输，ArkFlow 不运营用于保存这些备份的服务器，也无法访问你的 Apple ID 或 iCloud 账户。", "App Store 图标搜索：当你主动使用“App Store 搜索添加”账户 logo 时，App 会把你输入的搜索关键词和所选商店地区发送到 Apple 的 iTunes Search API，并从 Apple 返回的图标地址下载你选择的图标。请避免把不必要的个人敏感信息作为搜索关键词。", "技术支持：如果你通过邮件或支持页面联系我们，你主动提供的邮箱地址、问题描述、截图或诊断信息会用于处理你的支持请求。"] },
           { h: "照片与截图", p: ["ArkFlow 只会在你主动选择图片时读取相关图片。你上传的账户 logo 和卡面图片会保存在设备本地，不会上传到 ArkFlow 服务器。iOS 的照片选择器和权限弹窗由系统提供。"] },
           { h: "本地通知", p: ["ArkFlow 可以使用本地通知提醒你账单日、还款日或需要更新数据的时间。通知由你的设备本地排程。你可以在系统设置中关闭通知权限。"] },
           { h: "内购、订阅和 Pro 状态", p: ["ArkFlow Pro 的购买和订阅由 Apple 处理。App 会使用 StoreKit 读取商品信息、发起购买、恢复购买，并根据 Apple 返回的有效交易状态判断 Pro 权益是否可用。价格、订阅周期、续订、取消和退款规则以 Apple 的购买界面、App Store 账户设置和 Apple 政策为准。"] },
           { h: "第三方图标和本地上传内容", p: ["第三方 App 名称、图标、商标和相关素材归各自权利人所有。ArkFlow 的 App Store 图标搜索功能仅用于让你在本机选择一个账户视觉标识，不代表 ArkFlow 与相关 App、开发者或商标权利人存在关联、授权、赞助或背书关系。你也可以随时恢复默认图标或使用自己有权使用的本地图片。"] },
           { h: "我们不会做的事", l: ["不会要求你注册 ArkFlow 账号才能使用当前本地核心功能。", "不会自动连接银行、券商或支付账户。", "不会出售你的个人资产数据。", "不会在当前版本中把你的资产数据上传到 ArkFlow 服务器进行集中存储。"] },
-          { h: "数据删除", p: ["你可以在 App 内删除账户、替换或清除账户 logo。卸载 App 通常会删除 App 沙盒内的本地数据。请注意，如果你使用 iOS 系统备份、设备迁移或未来系统级同步能力，数据保留和恢复还会受 Apple 系统机制影响。"] },
-          { h: "政策更新", p: ["如果未来 ArkFlow 增加 iCloud/CloudKit 同步、第三方 AI 识别、账号系统、分析服务或其他会改变数据处理方式的功能，我们会在上线前更新本政策，并在必要时请求你的同意。"] },
+          { h: "数据删除", p: ["你可以在 App 内删除账户、替换或清除账户 logo，也可以在设置中删除 ArkFlow 保存在 iCloud Drive 容器里的备份文件。卸载 App 通常会删除 App 沙盒内的本地数据，但不会必然删除你已存入 iCloud Drive 的备份；iOS 系统备份、设备迁移和 iCloud 设置可能影响数据保留与恢复。"] },
+          { h: "政策更新", p: ["如果未来 ArkFlow 增加第三方 AI 识别、账号系统、分析服务、实时云端同步或其他会改变数据处理方式的功能，我们会在上线前更新本政策，并在必要时请求你的同意。"] },
           { h: "联系我们", p: ["如有隐私问题，请通过技术支持页面联系我们。"] }
         ],
         footer: [["index.html", "法律与支持首页"], ["terms.html", "用户协议"]]
@@ -90,7 +90,7 @@
   };
 
   data["zh-Hant"] = cloneLang(data["zh-CN"], {
-    common: { updated: "最後更新：2026 年 6 月 19 日", authority: "翻譯僅為方便閱讀；如不同語言版本存在差異，以簡體中文版本為準。", home: "法律與支援首頁", privacy: "隱私政策", terms: "使用者協議", support: "技術支援" },
+    common: { updated: "最後更新：2026 年 6 月 20 日", authority: "翻譯僅為方便閱讀；如不同語言版本存在差異，以簡體中文版本為準。", home: "法律與支援首頁", privacy: "隱私政策", terms: "使用者協議", support: "技術支援" },
     index: { title: "法律與支援", body: "這裡提供 ArkFlow 的隱私政策、使用者協議和技術支援入口。", links: [["privacy.html", "隱私政策"], ["terms.html", "使用者協議"], ["support.html", "技術支援"]] },
     privacy: { title: "隱私政策", intro: ["ArkFlow 是一個本地優先的個人資產管理 App。當前版本不提供 ArkFlow 帳號系統，不營運用於保存使用者資產資料的 ArkFlow 伺服器，也不會把你的帳戶、截圖、資產金額或 OCR 結果上傳到 ArkFlow 伺服器。"] },
     terms: { title: "使用者協議", intro: ["歡迎使用 ArkFlow。使用 ArkFlow 即表示你同意本使用者協議以及我們的隱私政策。如果你不同意，請停止使用本 App。"] },
@@ -98,21 +98,21 @@
   });
 
   data.en = {
-    common: { brand: "ArkFlow / Changliu", updated: "Last updated: June 19, 2026", authority: "Translations are provided for convenience. If versions differ, the Simplified Chinese version controls.", home: "Legal & Support Home", privacy: "Privacy Policy", terms: "Terms of Use", support: "Support" },
+    common: { brand: "ArkFlow / Changliu", updated: "Last updated: June 20, 2026", authority: "Translations are provided for convenience. If versions differ, the Simplified Chinese version controls.", home: "Legal & Support Home", privacy: "Privacy Policy", terms: "Terms of Use", support: "Support" },
     index: { title: "Legal & Support", body: "This site provides ArkFlow's Privacy Policy, Terms of Use, and support contact information.", links: [["privacy.html", "Privacy Policy"], ["terms.html", "Terms of Use"], ["support.html", "Support"]] },
     privacy: {
       title: "Privacy Policy",
       intro: ["ArkFlow is a local-first personal asset management app. The current version does not provide an ArkFlow account system, does not operate ArkFlow servers for storing your asset data, and does not upload your accounts, screenshots, asset amounts, or OCR results to ArkFlow servers."],
       sections: [
         { h: "Data We Process", p: ["Data you enter or generate in the app is stored locally on your device, including:"], l: ["Account names, categories, balances, liabilities, credit card bill fields, repayment dates, and notes.", "Asset snapshots, recurring cashflows, base currency, exchange rates, reminder preferences, and privacy mode settings.", "Account logos you select, including icons chosen through App Store search or images you upload and crop from Photos.", "Screenshot recognition results. Recognition is performed locally by default and is saved only after you confirm it."] },
-        { h: "When Network Access Is Used", p: ["Core asset recording works without an account login or bank connection. The following features may access Apple or services you choose:"], l: ["In-app purchases and subscriptions are handled by Apple App Store and StoreKit. ArkFlow does not access your card number, payment account, or full payment credentials.", "App Store icon search sends your search keyword and selected storefront region to Apple's iTunes Search API and downloads the icon you choose from Apple's returned URL. Avoid entering unnecessary sensitive personal information as search terms.", "If you contact support by email or the support page, the email address, description, screenshots, or diagnostics you provide are used to handle your request."] },
+        { h: "When Network Access Is Used", p: ["Core asset recording works without an account login or bank connection. The following features may access Apple or services you choose:"], l: ["In-app purchases and subscriptions are handled by Apple App Store and StoreKit. ArkFlow does not access your card number, payment account, or full payment credentials.", "iCloud Drive backup and snapshot sync: when Pro users upload, pull, or enable automatic sync, the app exports ArkFlow data as a `.arkflowbackup` file and stores it in your own iCloud Drive container, or reads that backup from the same container. Apple iCloud provides the storage and transfer between your devices. ArkFlow does not operate servers for these backups and cannot access your Apple ID or iCloud account.", "App Store icon search sends your search keyword and selected storefront region to Apple's iTunes Search API and downloads the icon you choose from Apple's returned URL. Avoid entering unnecessary sensitive personal information as search terms.", "If you contact support by email or the support page, the email address, description, screenshots, or diagnostics you provide are used to handle your request."] },
         { h: "Photos and Screenshots", p: ["ArkFlow reads images only when you choose them. Uploaded account logos and card-face images are stored locally on your device and are not uploaded to ArkFlow servers. iOS provides the photo picker and permission prompts."] },
         { h: "Local Notifications", p: ["ArkFlow can schedule local notifications for statement dates, repayment dates, or data update reminders. Notifications are scheduled on your device. You can disable notification permission in system settings."] },
         { h: "Purchases, Subscriptions, and Pro Status", p: ["ArkFlow Pro purchases and subscriptions are handled by Apple. The app uses StoreKit to load products, start purchases, restore purchases, and determine Pro access from valid Apple transactions. Pricing, renewal, cancellation, and refund rules are governed by Apple's purchase sheet, App Store account settings, and Apple policies."] },
         { h: "Third-Party Icons and Uploaded Content", p: ["Third-party app names, icons, trademarks, and materials belong to their respective owners. App Store icon search only helps you choose a local visual identifier for an account on your device. It does not imply affiliation, authorization, sponsorship, or endorsement by the related app, developer, trademark owner, or Apple."] },
         { h: "What We Do Not Do", l: ["We do not require an ArkFlow account to use the current local core features.", "We do not automatically connect to banks, brokerages, or payment accounts.", "We do not sell your personal asset data.", "We do not upload your asset data to ArkFlow servers for centralized storage in the current version."] },
-        { h: "Data Deletion", p: ["You can delete accounts and replace or clear account logos in the app. Uninstalling the app normally removes data stored in its sandbox. iOS backups, device migration, or future system sync features may affect retention and restoration."] },
-        { h: "Policy Updates", p: ["If ArkFlow later adds iCloud/CloudKit sync, third-party AI recognition, accounts, analytics, or other features that change data processing, we will update this policy before launch and request consent where required."] },
+        { h: "Data Deletion", p: ["You can delete accounts, replace or clear account logos, and delete ArkFlow backup files stored in your iCloud Drive container from Settings. Uninstalling the app normally removes data stored in its sandbox, but does not necessarily delete backups you already stored in iCloud Drive. iOS backups, device migration, and iCloud settings may affect retention and restoration."] },
+        { h: "Policy Updates", p: ["If ArkFlow later adds third-party AI recognition, accounts, analytics, real-time cloud sync, or other features that change data processing, we will update this policy before launch and request consent where required."] },
         { h: "Contact Us", p: ["For privacy questions, contact us through the support page."] }
       ],
       footer: [["index.html", "Legal & Support Home"], ["terms.html", "Terms of Use"]]
@@ -151,7 +151,7 @@
   };
 
   data.ja = translateFromEnglish("ja", {
-    common: { brand: "ArkFlow / 長流", updated: "最終更新日：2026年6月19日", authority: "翻訳は読みやすさのために提供されています。内容に差異がある場合は簡体字中国語版が優先されます。", home: "法律・サポート ホーム", privacy: "プライバシーポリシー", terms: "利用規約", support: "サポート" },
+    common: { brand: "ArkFlow / 長流", updated: "最終更新日：2026年6月20日", authority: "翻訳は読みやすさのために提供されています。内容に差異がある場合は簡体字中国語版が優先されます。", home: "法律・サポート ホーム", privacy: "プライバシーポリシー", terms: "利用規約", support: "サポート" },
     titles: ["法律・サポート", "プライバシーポリシー", "利用規約", "サポート"],
     indexBody: "ArkFlow のプライバシーポリシー、利用規約、サポート連絡先を掲載しています。",
     supportIntro: "ArkFlow の利用中に問題が発生した場合は、メールでお問い合わせください。",
@@ -160,7 +160,7 @@
   });
 
   data.ko = translateFromEnglish("ko", {
-    common: { brand: "ArkFlow / 장류", updated: "마지막 업데이트: 2026년 6월 19일", authority: "번역은 편의를 위해 제공됩니다. 버전 간 차이가 있는 경우 간체 중국어 버전이 우선합니다.", home: "법률 및 지원 홈", privacy: "개인정보 처리방침", terms: "이용약관", support: "지원" },
+    common: { brand: "ArkFlow / 장류", updated: "마지막 업데이트: 2026년 6월 20일", authority: "번역은 편의를 위해 제공됩니다. 버전 간 차이가 있는 경우 간체 중국어 버전이 우선합니다.", home: "법률 및 지원 홈", privacy: "개인정보 처리방침", terms: "이용약관", support: "지원" },
     titles: ["법률 및 지원", "개인정보 처리방침", "이용약관", "지원"],
     indexBody: "이 사이트는 ArkFlow의 개인정보 처리방침, 이용약관, 지원 연락처를 제공합니다.",
     supportIntro: "ArkFlow 사용 중 문제가 있으면 이메일로 문의할 수 있습니다.",
@@ -169,7 +169,7 @@
   });
 
   data.es = translateFromEnglish("es", {
-    common: { brand: "ArkFlow / Changliu", updated: "Última actualización: 19 de junio de 2026", authority: "Las traducciones se ofrecen para facilitar la lectura. Si existen diferencias, prevalece la versión en chino simplificado.", home: "Inicio legal y soporte", privacy: "Política de privacidad", terms: "Términos de uso", support: "Soporte" },
+    common: { brand: "ArkFlow / Changliu", updated: "Última actualización: 20 de junio de 2026", authority: "Las traducciones se ofrecen para facilitar la lectura. Si existen diferencias, prevalece la versión en chino simplificado.", home: "Inicio legal y soporte", privacy: "Política de privacidad", terms: "Términos de uso", support: "Soporte" },
     titles: ["Legal y soporte", "Política de privacidad", "Términos de uso", "Soporte"],
     indexBody: "Este sitio proporciona la Política de privacidad, los Términos de uso y la información de soporte de ArkFlow.",
     supportIntro: "Si tienes problemas al usar ArkFlow, puedes contactarnos por correo electrónico.",
@@ -178,7 +178,7 @@
   });
 
   data.fr = translateFromEnglish("fr", {
-    common: { brand: "ArkFlow / Changliu", updated: "Dernière mise à jour : 19 juin 2026", authority: "Les traductions sont fournies pour faciliter la lecture. En cas de divergence, la version en chinois simplifié prévaut.", home: "Accueil juridique et support", privacy: "Politique de confidentialité", terms: "Conditions d'utilisation", support: "Support" },
+    common: { brand: "ArkFlow / Changliu", updated: "Dernière mise à jour : 20 juin 2026", authority: "Les traductions sont fournies pour faciliter la lecture. En cas de divergence, la version en chinois simplifié prévaut.", home: "Accueil juridique et support", privacy: "Politique de confidentialité", terms: "Conditions d'utilisation", support: "Support" },
     titles: ["Juridique et support", "Politique de confidentialité", "Conditions d'utilisation", "Support"],
     indexBody: "Ce site fournit la politique de confidentialité, les conditions d'utilisation et les informations de support d'ArkFlow.",
     supportIntro: "Si vous rencontrez un problème avec ArkFlow, vous pouvez nous contacter par e-mail.",
@@ -187,7 +187,7 @@
   });
 
   data.de = translateFromEnglish("de", {
-    common: { brand: "ArkFlow / Changliu", updated: "Zuletzt aktualisiert: 19. Juni 2026", authority: "Übersetzungen dienen der besseren Lesbarkeit. Bei Abweichungen gilt die vereinfachte chinesische Version.", home: "Rechtliches & Support", privacy: "Datenschutzerklärung", terms: "Nutzungsbedingungen", support: "Support" },
+    common: { brand: "ArkFlow / Changliu", updated: "Zuletzt aktualisiert: 20. Juni 2026", authority: "Übersetzungen dienen der besseren Lesbarkeit. Bei Abweichungen gilt die vereinfachte chinesische Version.", home: "Rechtliches & Support", privacy: "Datenschutzerklärung", terms: "Nutzungsbedingungen", support: "Support" },
     titles: ["Rechtliches & Support", "Datenschutzerklärung", "Nutzungsbedingungen", "Support"],
     indexBody: "Diese Website enthält die Datenschutzerklärung, Nutzungsbedingungen und Supportinformationen von ArkFlow.",
     supportIntro: "Wenn bei der Nutzung von ArkFlow ein Problem auftritt, können Sie uns per E-Mail kontaktieren.",
@@ -196,7 +196,7 @@
   });
 
   data["pt-BR"] = translateFromEnglish("pt-BR", {
-    common: { brand: "ArkFlow / Changliu", updated: "Última atualização: 19 de junho de 2026", authority: "As traduções são fornecidas para conveniência. Em caso de diferença, prevalece a versão em chinês simplificado.", home: "Início jurídico e suporte", privacy: "Política de privacidade", terms: "Termos de uso", support: "Suporte" },
+    common: { brand: "ArkFlow / Changliu", updated: "Última atualização: 20 de junho de 2026", authority: "As traduções são fornecidas para conveniência. Em caso de diferença, prevalece a versão em chinês simplificado.", home: "Início jurídico e suporte", privacy: "Política de privacidade", terms: "Termos de uso", support: "Suporte" },
     titles: ["Jurídico e suporte", "Política de privacidade", "Termos de uso", "Suporte"],
     indexBody: "Este site fornece a Política de Privacidade, os Termos de Uso e as informações de suporte do ArkFlow.",
     supportIntro: "Se tiver problemas ao usar o ArkFlow, entre em contato por e-mail.",
@@ -205,7 +205,7 @@
   });
 
   data.ru = translateFromEnglish("ru", {
-    common: { brand: "ArkFlow / Changliu", updated: "Последнее обновление: 19 июня 2026 г.", authority: "Переводы предоставлены для удобства. При расхождениях преимущественную силу имеет версия на упрощенном китайском языке.", home: "Юридическая информация и поддержка", privacy: "Политика конфиденциальности", terms: "Условия использования", support: "Поддержка" },
+    common: { brand: "ArkFlow / Changliu", updated: "Последнее обновление: 20 июня 2026 г.", authority: "Переводы предоставлены для удобства. При расхождениях преимущественную силу имеет версия на упрощенном китайском языке.", home: "Юридическая информация и поддержка", privacy: "Политика конфиденциальности", terms: "Условия использования", support: "Поддержка" },
     titles: ["Юридическая информация и поддержка", "Политика конфиденциальности", "Условия использования", "Поддержка"],
     indexBody: "На этом сайте размещены Политика конфиденциальности ArkFlow, Условия использования и контактная информация поддержки.",
     supportIntro: "Если у вас возникли проблемы с ArkFlow, свяжитесь с нами по электронной почте.",
@@ -219,14 +219,14 @@
       termsIntro: "歡迎使用 ArkFlow。使用 ArkFlow 即表示你同意本使用者協議以及我們的隱私政策。如果你不同意，請停止使用本 App。",
       privacy: [
         "你在 App 內主動錄入或產生的資料會保存在本機，包括帳戶名稱、分類、餘額、負債、信用卡帳單欄位、還款日、備註、資產快照、循環收支、本位幣、匯率、提醒偏好、隱私模式設定、帳戶 logo 和截圖辨識結果。截圖辨識預設在裝置本機完成，必須經你確認後才會保存。",
-        "核心資產記錄可以在不登入帳號、不連接銀行的情況下使用。內購、訂閱、恢復購買與退款/撤銷狀態由 Apple App Store 和 StoreKit 處理；App Store 圖示搜尋會把搜尋關鍵字和商店地區傳送給 Apple 的 iTunes Search API；你透過郵件或支援頁主動提供的資訊會用於處理支援請求。",
+        "核心資產記錄可以在不登入帳號、不連接銀行的情況下使用。內購、訂閱、恢復購買與退款/撤銷狀態由 Apple App Store 和 StoreKit 處理；Pro 使用者主動上傳、拉取或開啟自動同步時，ArkFlow 會把資料匯出為 `.arkflowbackup` 並存入你的 iCloud Drive 容器，或從該容器讀取備份；App Store 圖示搜尋會把搜尋關鍵字和商店地區傳送給 Apple 的 iTunes Search API；你透過郵件或支援頁主動提供的資訊會用於處理支援請求。",
         "ArkFlow 只會在你主動選擇圖片時讀取相關照片或截圖。你上傳的帳戶 logo 和卡面圖片會保存在裝置本機，不會上傳到 ArkFlow 伺服器。",
         "ArkFlow 可以使用本機通知提醒帳單日、還款日或更新資料。通知由你的裝置本機排程，你可以在系統設定中關閉通知權限。",
         "ArkFlow Pro 的購買和訂閱由 Apple 處理。App 使用 StoreKit 讀取商品、發起購買、恢復購買，並依 Apple 回傳的有效交易狀態判斷 Pro 權益是否可用。價格、續訂、取消和退款規則以 Apple 介面和政策為準。",
         "第三方 App 名稱、圖示、商標和相關素材歸各自權利人所有。App Store 圖示搜尋只用於在本機選擇帳戶視覺標識，不代表 ArkFlow 與相關 App、開發者、商標權利人或 Apple 存在關聯、授權、贊助或背書。",
         "我們不要求你註冊 ArkFlow 帳號才能使用目前的本機核心功能，不會自動連接銀行、券商或支付帳戶，不會出售你的個人資產資料，也不會在目前版本把你的資產資料上傳到 ArkFlow 伺服器集中存儲。",
-        "你可以在 App 內刪除帳戶、替換或清除帳戶 logo。卸載 App 通常會刪除 App 沙盒內的本機資料；iOS 備份、裝置遷移或未來系統同步能力可能影響資料保留與恢復。",
-        "如果未來 ArkFlow 增加 iCloud/CloudKit 同步、第三方 AI 辨識、帳號系統、分析服務或其他會改變資料處理方式的功能，我們會在上線前更新本政策，並在必要時徵求你的同意。",
+        "你可以在 App 內刪除帳戶、替換或清除帳戶 logo，也可以在設定中刪除 ArkFlow 存在 iCloud Drive 容器裡的備份檔。卸載 App 通常會刪除 App 沙盒內的本機資料，但不一定刪除已存入 iCloud Drive 的備份；iOS 備份、裝置遷移和 iCloud 設定可能影響資料保留與恢復。",
+        "如果未來 ArkFlow 增加第三方 AI 辨識、帳號系統、分析服務、即時雲端同步或其他會改變資料處理方式的功能，我們會在上線前更新本政策，並在必要時徵求你的同意。",
         "如有隱私問題，請透過技術支援頁面聯絡我們。"
       ],
       terms: [
@@ -255,14 +255,14 @@
       termsIntro: "ArkFlow へようこそ。ArkFlow を利用することで、本利用規約およびプライバシーポリシーに同意したものとみなされます。同意しない場合は、本アプリの利用を停止してください。",
       privacy: [
         "アプリ内で入力または生成したデータは端末内に保存されます。これには、口座名、分類、残高、負債、クレジットカード請求項目、返済日、メモ、資産スナップショット、定期収支、基準通貨、為替レート、通知設定、プライバシーモード、口座ロゴ、スクリーンショット認識結果が含まれます。認識結果は原則として端末内で処理され、あなたが確認した後にのみ保存されます。",
-        "中核となる資産記録機能は、アカウント登録や銀行接続なしで利用できます。アプリ内購入、サブスクリプション、購入の復元、返金または取消状態は Apple App Store と StoreKit が処理します。App Store アイコン検索では、検索語とストア地域が Apple の iTunes Search API に送信されます。サポートへ送信した情報は、問い合わせ対応のために使用されます。",
+        "中核となる資産記録機能は、アカウント登録や銀行接続なしで利用できます。アプリ内購入、サブスクリプション、購入の復元、返金または取消状態は Apple App Store と StoreKit が処理します。Pro ユーザーがアップロード、取得、自動同期を有効にすると、ArkFlow はデータを `.arkflowbackup` として書き出し、あなたの iCloud Drive コンテナに保存またはそこから読み取ります。App Store アイコン検索では、検索語とストア地域が Apple の iTunes Search API に送信されます。サポートへ送信した情報は、問い合わせ対応のために使用されます。",
         "ArkFlow は、あなたが明示的に選択した画像のみを読み取ります。アップロードした口座ロゴやカード画像は端末内に保存され、ArkFlow サーバーには送信されません。",
         "ArkFlow は請求日、返済日、データ更新のリマインダーとしてローカル通知を使用できます。通知は端末上でスケジュールされ、システム設定で無効にできます。",
         "ArkFlow Pro の購入とサブスクリプションは Apple が処理します。アプリは StoreKit を使用して商品情報の取得、購入、復元、有効な取引に基づく Pro 権限判定を行います。価格、更新、解約、返金は Apple の画面、App Store 設定、Apple のポリシーに従います。",
         "第三者アプリの名称、アイコン、商標、素材はそれぞれの権利者に帰属します。App Store アイコン検索は、端末上の口座識別用ビジュアルを選ぶための機能であり、関連アプリ、開発者、商標権者、Apple との提携、許諾、後援、推奨を意味しません。",
         "現在のローカル中核機能の利用に ArkFlow アカウント登録は求めません。銀行、証券、決済口座へ自動接続しません。個人資産データを販売せず、現在のバージョンでは資産データを ArkFlow サーバーへ集中保存しません。",
-        "アプリ内で口座を削除したり、口座ロゴを置き換えまたは削除できます。アプリのアンインストールにより通常はサンドボックス内のローカルデータが削除されますが、iOS バックアップ、端末移行、将来の同期機能は保持や復元に影響する場合があります。",
-        "将来 iCloud/CloudKit 同期、第三者 AI 認識、アカウント機能、分析サービスなどデータ処理を変更する機能を追加する場合、公開前に本ポリシーを更新し、必要に応じて同意を求めます。",
+        "アプリ内で口座を削除したり、口座ロゴを置き換えまたは削除できます。設定から iCloud Drive コンテナ内の ArkFlow バックアップファイルも削除できます。アプリのアンインストールにより通常はローカルデータが削除されますが、iCloud Drive に保存済みのバックアップが必ず削除されるとは限りません。iOS バックアップ、端末移行、iCloud 設定は保持や復元に影響する場合があります。",
+        "将来、第三者 AI 認識、アカウント機能、分析サービス、リアルタイムクラウド同期などデータ処理を変更する機能を追加する場合、公開前に本ポリシーを更新し、必要に応じて同意を求めます。",
         "プライバシーに関する質問は、サポートページからお問い合わせください。"
       ],
       terms: [
@@ -291,14 +291,14 @@
       termsIntro: "ArkFlow에 오신 것을 환영합니다. ArkFlow를 사용하면 본 이용약관과 개인정보 처리방침에 동의한 것으로 간주됩니다. 동의하지 않는 경우 앱 사용을 중단해 주세요.",
       privacy: [
         "앱 안에서 직접 입력하거나 생성한 데이터는 기기 로컬에 저장됩니다. 여기에는 계좌명, 분류, 잔액, 부채, 신용카드 청구 항목, 상환일, 메모, 자산 스냅샷, 반복 수입/지출, 기준 통화, 환율, 알림 설정, 개인정보 보호 모드, 계좌 로고, 스크린샷 인식 결과가 포함됩니다. 스크린샷 인식은 기본적으로 기기에서 처리되며 사용자가 확인한 뒤에만 저장됩니다.",
-        "핵심 자산 기록 기능은 계정 로그인이나 은행 연결 없이 사용할 수 있습니다. 인앱 구매, 구독, 구매 복원, 환불/취소 상태는 Apple App Store와 StoreKit이 처리합니다. App Store 아이콘 검색은 검색어와 선택한 스토어 지역을 Apple iTunes Search API로 보냅니다. 지원 요청으로 사용자가 제공한 정보는 요청 처리에 사용됩니다.",
+        "핵심 자산 기록 기능은 계정 로그인이나 은행 연결 없이 사용할 수 있습니다. 인앱 구매, 구독, 구매 복원, 환불/취소 상태는 Apple App Store와 StoreKit이 처리합니다. Pro 사용자가 업로드, 가져오기 또는 자동 동기화를 켜면 ArkFlow는 데이터를 `.arkflowbackup` 파일로 내보내 사용자의 iCloud Drive 컨테이너에 저장하거나 그 컨테이너에서 읽습니다. App Store 아이콘 검색은 검색어와 선택한 스토어 지역을 Apple iTunes Search API로 보냅니다. 지원 요청으로 사용자가 제공한 정보는 요청 처리에 사용됩니다.",
         "ArkFlow는 사용자가 직접 선택한 이미지에만 접근합니다. 업로드한 계좌 로고와 카드 이미지는 기기에 로컬 저장되며 ArkFlow 서버로 업로드되지 않습니다.",
         "ArkFlow는 청구일, 상환일 또는 데이터 업데이트를 알리기 위해 로컬 알림을 사용할 수 있습니다. 알림은 기기에서 예약되며 시스템 설정에서 권한을 끌 수 있습니다.",
         "ArkFlow Pro 구매와 구독은 Apple이 처리합니다. 앱은 StoreKit으로 상품 정보를 불러오고, 구매와 복원을 시작하며, Apple의 유효 거래 상태에 따라 Pro 권한을 판단합니다. 가격, 갱신, 취소, 환불 규칙은 Apple 구매 화면, App Store 계정 설정 및 Apple 정책을 따릅니다.",
         "타사 앱 이름, 아이콘, 상표 및 자료는 각 권리자에게 귀속됩니다. App Store 아이콘 검색은 기기 안에서 계좌의 시각적 식별자를 선택하기 위한 기능일 뿐이며, 관련 앱, 개발자, 상표권자 또는 Apple과의 제휴, 승인, 후원, 추천을 의미하지 않습니다.",
         "현재 로컬 핵심 기능을 사용하기 위해 ArkFlow 계정 가입을 요구하지 않습니다. 은행, 증권사, 결제 계좌에 자동 연결하지 않습니다. 개인 자산 데이터를 판매하지 않으며, 현재 버전에서는 자산 데이터를 ArkFlow 서버에 중앙 저장하지 않습니다.",
-        "앱에서 계좌를 삭제하거나 계좌 로고를 교체 또는 삭제할 수 있습니다. 앱 삭제 시 일반적으로 샌드박스 내 로컬 데이터가 제거되지만, iOS 백업, 기기 이전, 향후 시스템 동기화 기능은 데이터 보존과 복원에 영향을 줄 수 있습니다.",
-        "향후 iCloud/CloudKit 동기화, 타사 AI 인식, 계정 시스템, 분석 서비스 등 데이터 처리 방식을 바꾸는 기능이 추가되면 출시 전에 본 정책을 업데이트하고 필요한 경우 동의를 요청합니다.",
+        "앱에서 계좌를 삭제하거나 계좌 로고를 교체 또는 삭제할 수 있으며, 설정에서 iCloud Drive 컨테이너에 저장된 ArkFlow 백업 파일도 삭제할 수 있습니다. 앱 삭제 시 일반적으로 로컬 데이터는 제거되지만 이미 iCloud Drive에 저장된 백업이 반드시 삭제되는 것은 아닙니다. iOS 백업, 기기 이전 및 iCloud 설정은 데이터 보존과 복원에 영향을 줄 수 있습니다.",
+        "향후 타사 AI 인식, 계정 시스템, 분석 서비스, 실시간 클라우드 동기화 등 데이터 처리 방식을 바꾸는 기능이 추가되면 출시 전에 본 정책을 업데이트하고 필요한 경우 동의를 요청합니다.",
         "개인정보 관련 질문은 지원 페이지를 통해 문의해 주세요."
       ],
       terms: [
@@ -327,14 +327,14 @@
       termsIntro: "Bienvenido a ArkFlow. Al usar ArkFlow aceptas estos Términos de uso y nuestra Política de privacidad. Si no estás de acuerdo, deja de usar la app.",
       privacy: [
         "Los datos que introduces o generas en la app se guardan localmente en tu dispositivo, incluidos nombres de cuentas, categorías, saldos, deudas, campos de tarjetas de crédito, fechas de pago, notas, instantáneas de activos, flujos recurrentes, moneda base, tipos de cambio, preferencias de recordatorios, modo de privacidad, logos de cuentas y resultados de reconocimiento de capturas. El reconocimiento se realiza por defecto en el dispositivo y solo se guarda tras tu confirmación.",
-        "El registro básico de activos funciona sin iniciar sesión ni conectar bancos. Las compras, suscripciones, restauraciones y estados de reembolso o revocación los gestionan Apple App Store y StoreKit. La búsqueda de iconos de App Store envía tu palabra clave y región a la API iTunes Search de Apple. La información que envías a soporte se usa para atender tu solicitud.",
+        "El registro básico de activos funciona sin iniciar sesión ni conectar bancos. Las compras, suscripciones, restauraciones y estados de reembolso o revocación los gestionan Apple App Store y StoreKit. Cuando usuarios Pro suben, descargan o activan la sincronización automática, ArkFlow exporta los datos como `.arkflowbackup` y los guarda en tu contenedor de iCloud Drive, o lee la copia desde ese contenedor. La búsqueda de iconos de App Store envía tu palabra clave y región a la API iTunes Search de Apple. La información que envías a soporte se usa para atender tu solicitud.",
         "ArkFlow solo lee imágenes cuando las eliges. Los logos de cuenta e imágenes de tarjeta que subes se almacenan localmente y no se envían a servidores de ArkFlow.",
         "ArkFlow puede usar notificaciones locales para fechas de estado, fechas de pago o recordatorios de actualización. Se programan en tu dispositivo y puedes desactivarlas en Ajustes del sistema.",
         "Apple gestiona las compras y suscripciones de ArkFlow Pro. La app usa StoreKit para cargar productos, iniciar compras, restaurar compras y determinar el acceso Pro según transacciones válidas de Apple. Los precios, renovaciones, cancelaciones y reembolsos se rigen por Apple.",
         "Los nombres, iconos, marcas y materiales de apps de terceros pertenecen a sus propietarios. La búsqueda de iconos de App Store solo ayuda a elegir un identificador visual local para una cuenta; no implica afiliación, autorización, patrocinio ni respaldo.",
         "No exigimos una cuenta de ArkFlow para usar las funciones locales actuales, no conectamos automáticamente bancos, brokers o cuentas de pago, no vendemos tus datos patrimoniales y no subimos tus activos a servidores de ArkFlow para almacenamiento centralizado.",
-        "Puedes eliminar cuentas y cambiar o borrar logos dentro de la app. Al desinstalar la app normalmente se eliminan los datos del sandbox local; copias de seguridad de iOS, migración de dispositivo o futuras funciones de sincronización pueden afectar conservación y restauración.",
-        "Si ArkFlow añade en el futuro sincronización iCloud/CloudKit, reconocimiento de IA de terceros, cuentas, analíticas u otras funciones que cambien el tratamiento de datos, actualizaremos esta política antes del lanzamiento y pediremos consentimiento cuando sea necesario.",
+        "Puedes eliminar cuentas, cambiar o borrar logos y borrar desde Ajustes los archivos de copia de seguridad de ArkFlow guardados en tu contenedor de iCloud Drive. Al desinstalar la app normalmente se eliminan los datos locales, pero no necesariamente las copias ya guardadas en iCloud Drive. Las copias de iOS, la migración de dispositivo y los ajustes de iCloud pueden afectar conservación y restauración.",
+        "Si ArkFlow añade en el futuro reconocimiento de IA de terceros, cuentas, analíticas, sincronización en la nube en tiempo real u otras funciones que cambien el tratamiento de datos, actualizaremos esta política antes del lanzamiento y pediremos consentimiento cuando sea necesario.",
         "Para preguntas de privacidad, contáctanos desde la página de soporte."
       ],
       terms: [
@@ -363,14 +363,14 @@
       termsIntro: "Bienvenue dans ArkFlow. En utilisant ArkFlow, vous acceptez ces Conditions d'utilisation et notre Politique de confidentialité. Si vous n'êtes pas d'accord, cessez d'utiliser l'app.",
       privacy: [
         "Les données que vous saisissez ou générez dans l'app sont conservées localement sur votre appareil : noms de comptes, catégories, soldes, dettes, champs de carte de crédit, dates de remboursement, notes, instantanés d'actifs, flux récurrents, devise de base, taux de change, préférences de rappels, mode confidentialité, logos de comptes et résultats de reconnaissance de captures. La reconnaissance est effectuée par défaut sur l'appareil et n'est enregistrée qu'après votre confirmation.",
-        "L'enregistrement principal des actifs fonctionne sans compte ni connexion bancaire. Les achats, abonnements, restaurations et statuts de remboursement ou révocation sont traités par Apple App Store et StoreKit. La recherche d'icônes App Store envoie le mot-clé et la région choisie à l'API iTunes Search d'Apple. Les informations envoyées au support servent à traiter votre demande.",
+        "L'enregistrement principal des actifs fonctionne sans compte ni connexion bancaire. Les achats, abonnements, restaurations et statuts de remboursement ou révocation sont traités par Apple App Store et StoreKit. Quand un utilisateur Pro téléverse, récupère ou active la synchronisation automatique, ArkFlow exporte les données en fichier `.arkflowbackup` et les stocke dans votre conteneur iCloud Drive, ou lit la sauvegarde depuis ce conteneur. La recherche d'icônes App Store envoie le mot-clé et la région choisie à l'API iTunes Search d'Apple. Les informations envoyées au support servent à traiter votre demande.",
         "ArkFlow ne lit les images que lorsque vous les choisissez. Les logos de compte et images de carte importés restent sur l'appareil et ne sont pas envoyés aux serveurs ArkFlow.",
         "ArkFlow peut utiliser des notifications locales pour les dates de relevé, de remboursement ou de mise à jour. Elles sont planifiées sur votre appareil et peuvent être désactivées dans les réglages système.",
         "Les achats et abonnements ArkFlow Pro sont gérés par Apple. L'app utilise StoreKit pour charger les produits, lancer et restaurer les achats, puis déterminer l'accès Pro selon les transactions valides d'Apple. Prix, renouvellement, annulation et remboursement suivent les règles d'Apple.",
         "Les noms, icônes, marques et contenus d'apps tierces appartiennent à leurs propriétaires. La recherche d'icônes App Store sert seulement à choisir un identifiant visuel local pour un compte et n'implique aucune affiliation, autorisation, sponsorisation ou approbation.",
         "Nous ne demandons pas de compte ArkFlow pour utiliser les fonctions locales actuelles, ne connectons pas automatiquement banques, courtiers ou moyens de paiement, ne vendons pas vos données patrimoniales et ne téléversons pas actuellement vos actifs vers des serveurs ArkFlow pour stockage centralisé.",
-        "Vous pouvez supprimer des comptes et remplacer ou effacer des logos dans l'app. La désinstallation supprime normalement les données du sandbox local ; sauvegardes iOS, migration d'appareil ou futures synchronisations peuvent influencer conservation et restauration.",
-        "Si ArkFlow ajoute plus tard iCloud/CloudKit, reconnaissance IA tierce, comptes, analytique ou d'autres fonctions changeant le traitement des données, nous mettrons cette politique à jour avant lancement et demanderons le consentement si nécessaire.",
+        "Vous pouvez supprimer des comptes, remplacer ou effacer des logos, et supprimer depuis Réglages les fichiers de sauvegarde ArkFlow stockés dans votre conteneur iCloud Drive. La désinstallation supprime normalement les données locales, mais pas nécessairement les sauvegardes déjà stockées dans iCloud Drive. Les sauvegardes iOS, la migration d'appareil et les réglages iCloud peuvent influencer conservation et restauration.",
+        "Si ArkFlow ajoute plus tard reconnaissance IA tierce, comptes, analytique, synchronisation cloud en temps réel ou d'autres fonctions changeant le traitement des données, nous mettrons cette politique à jour avant lancement et demanderons le consentement si nécessaire.",
         "Pour toute question de confidentialité, contactez-nous via la page de support."
       ],
       terms: [
@@ -399,14 +399,14 @@
       termsIntro: "Willkommen bei ArkFlow. Durch die Nutzung von ArkFlow stimmen Sie diesen Nutzungsbedingungen und unserer Datenschutzerklärung zu. Wenn Sie nicht einverstanden sind, verwenden Sie die App bitte nicht weiter.",
       privacy: [
         "Daten, die Sie in der App eingeben oder erzeugen, werden lokal auf Ihrem Gerät gespeichert: Kontonamen, Kategorien, Salden, Verbindlichkeiten, Kreditkartenfelder, Fälligkeiten, Notizen, Vermögens-Snapshots, wiederkehrende Cashflows, Basiswährung, Wechselkurse, Erinnerungseinstellungen, Datenschutzmodus, Kontologos und Screenshot-Erkennungsergebnisse. Die Erkennung erfolgt standardmäßig auf dem Gerät und wird erst nach Ihrer Bestätigung gespeichert.",
-        "Die Kernfunktion zur Vermögensaufzeichnung funktioniert ohne Login oder Bankverbindung. Käufe, Abos, Wiederherstellungen und Rückerstattungs- oder Widerrufsstatus werden von Apple App Store und StoreKit verarbeitet. Die App-Store-Icon-Suche sendet Suchbegriff und Region an Apples iTunes Search API. Supportangaben werden zur Bearbeitung Ihrer Anfrage genutzt.",
+        "Die Kernfunktion zur Vermögensaufzeichnung funktioniert ohne Login oder Bankverbindung. Käufe, Abos, Wiederherstellungen und Rückerstattungs- oder Widerrufsstatus werden von Apple App Store und StoreKit verarbeitet. Wenn Pro-Nutzer hochladen, abrufen oder automatische Synchronisierung aktivieren, exportiert ArkFlow Daten als `.arkflowbackup` und speichert sie in Ihrem iCloud-Drive-Container oder liest die Sicherung daraus. Die App-Store-Icon-Suche sendet Suchbegriff und Region an Apples iTunes Search API. Supportangaben werden zur Bearbeitung Ihrer Anfrage genutzt.",
         "ArkFlow liest Bilder nur, wenn Sie sie auswählen. Hochgeladene Kontologos und Kartenbilder bleiben lokal auf dem Gerät und werden nicht an ArkFlow-Server gesendet.",
         "ArkFlow kann lokale Mitteilungen für Abrechnungsdaten, Fälligkeiten oder Datenaktualisierungen verwenden. Sie werden auf Ihrem Gerät geplant und können in den Systemeinstellungen deaktiviert werden.",
         "ArkFlow-Pro-Käufe und Abos werden von Apple verarbeitet. Die App nutzt StoreKit zum Laden von Produkten, Starten und Wiederherstellen von Käufen sowie zur Bestimmung des Pro-Zugriffs anhand gültiger Apple-Transaktionen. Preise, Verlängerung, Kündigung und Rückerstattung richten sich nach Apple.",
         "Namen, Icons, Marken und Materialien von Drittanbieter-Apps gehören ihren jeweiligen Eigentümern. Die App-Store-Icon-Suche dient nur der lokalen visuellen Kennzeichnung eines Kontos und bedeutet keine Verbindung, Autorisierung, Förderung oder Empfehlung.",
         "Wir verlangen kein ArkFlow-Konto für aktuelle lokale Kernfunktionen, verbinden nicht automatisch Banken, Broker oder Zahlungskonten, verkaufen keine persönlichen Vermögensdaten und laden in der aktuellen Version keine Vermögensdaten zentral auf ArkFlow-Server.",
-        "Sie können Konten löschen und Kontologos ersetzen oder entfernen. Beim Deinstallieren werden App-Sandbox-Daten normalerweise gelöscht; iOS-Backups, Gerätemigration oder künftige Synchronisierung können Aufbewahrung und Wiederherstellung beeinflussen.",
-        "Wenn ArkFlow künftig iCloud/CloudKit, KI-Erkennung Dritter, Konten, Analyse oder andere datenverändernde Funktionen hinzufügt, aktualisieren wir diese Richtlinie vor Veröffentlichung und holen, falls nötig, Zustimmung ein.",
+        "Sie können Konten löschen, Kontologos ersetzen oder entfernen und in den Einstellungen ArkFlow-Sicherungsdateien aus Ihrem iCloud-Drive-Container löschen. Beim Deinstallieren werden lokale App-Daten normalerweise gelöscht, aber bereits in iCloud Drive gespeicherte Sicherungen nicht zwingend. iOS-Backups, Gerätemigration und iCloud-Einstellungen können Aufbewahrung und Wiederherstellung beeinflussen.",
+        "Wenn ArkFlow künftig KI-Erkennung Dritter, Konten, Analyse, Echtzeit-Cloud-Synchronisierung oder andere datenverändernde Funktionen hinzufügt, aktualisieren wir diese Richtlinie vor Veröffentlichung und holen, falls nötig, Zustimmung ein.",
         "Bei Datenschutzfragen kontaktieren Sie uns über die Support-Seite."
       ],
       terms: [
@@ -435,14 +435,14 @@
       termsIntro: "Bem-vindo ao ArkFlow. Ao usar o ArkFlow, você concorda com estes Termos de Uso e com nossa Política de Privacidade. Se não concordar, pare de usar o app.",
       privacy: [
         "Os dados que você insere ou gera no app são salvos localmente no dispositivo, incluindo nomes de contas, categorias, saldos, dívidas, campos de cartão de crédito, datas de pagamento, notas, snapshots de ativos, fluxos recorrentes, moeda base, câmbio, preferências de lembrete, modo de privacidade, logos de contas e resultados de OCR. O reconhecimento ocorre por padrão no dispositivo e só é salvo após sua confirmação.",
-        "O registro principal de ativos funciona sem login ou conexão bancária. Compras, assinaturas, restaurações e estados de reembolso ou revogação são processados pela Apple App Store e StoreKit. A busca de ícones da App Store envia palavra-chave e região à API iTunes Search da Apple. Informações enviadas ao suporte são usadas para atender sua solicitação.",
+        "O registro principal de ativos funciona sem login ou conexão bancária. Compras, assinaturas, restaurações e estados de reembolso ou revogação são processados pela Apple App Store e StoreKit. Quando usuários Pro enviam, puxam ou ativam sincronização automática, o ArkFlow exporta dados como `.arkflowbackup` e salva no seu contêiner do iCloud Drive, ou lê o backup desse contêiner. A busca de ícones da App Store envia palavra-chave e região à API iTunes Search da Apple. Informações enviadas ao suporte são usadas para atender sua solicitação.",
         "O ArkFlow só lê imagens quando você as escolhe. Logos de conta e imagens de cartão enviados ficam no dispositivo e não são enviados a servidores do ArkFlow.",
         "O ArkFlow pode usar notificações locais para datas de fatura, pagamento ou atualização de dados. Elas são agendadas no dispositivo e podem ser desativadas nos Ajustes do sistema.",
         "Compras e assinaturas do ArkFlow Pro são processadas pela Apple. O app usa StoreKit para carregar produtos, iniciar e restaurar compras e determinar acesso Pro por transações válidas da Apple. Preços, renovação, cancelamento e reembolso seguem regras da Apple.",
         "Nomes, ícones, marcas e materiais de apps terceiros pertencem a seus donos. A busca de ícones da App Store serve apenas para escolher um identificador visual local de conta e não implica afiliação, autorização, patrocínio ou endosso.",
         "Não exigimos conta ArkFlow para usar os recursos locais atuais, não conectamos automaticamente bancos, corretoras ou contas de pagamento, não vendemos seus dados patrimoniais e, na versão atual, não enviamos seus ativos a servidores ArkFlow para armazenamento centralizado.",
-        "Você pode excluir contas e trocar ou apagar logos no app. Desinstalar o app normalmente remove dados do sandbox local; backups do iOS, migração de dispositivo ou futura sincronização podem afetar retenção e restauração.",
-        "Se o ArkFlow adicionar iCloud/CloudKit, reconhecimento por IA de terceiros, contas, analytics ou outros recursos que mudem o processamento de dados, atualizaremos esta política antes do lançamento e pediremos consentimento quando necessário.",
+        "Você pode excluir contas, trocar ou apagar logos e remover em Ajustes os arquivos de backup do ArkFlow salvos no seu contêiner do iCloud Drive. Desinstalar o app normalmente remove dados locais, mas não necessariamente backups já salvos no iCloud Drive. Backups do iOS, migração de dispositivo e ajustes do iCloud podem afetar retenção e restauração.",
+        "Se o ArkFlow adicionar reconhecimento por IA de terceiros, contas, analytics, sincronização em nuvem em tempo real ou outros recursos que mudem o processamento de dados, atualizaremos esta política antes do lançamento e pediremos consentimento quando necessário.",
         "Para dúvidas de privacidade, entre em contato pela página de suporte."
       ],
       terms: [
@@ -471,14 +471,14 @@
       termsIntro: "Добро пожаловать в ArkFlow. Используя ArkFlow, вы соглашаетесь с настоящими Условиями использования и нашей Политикой конфиденциальности. Если вы не согласны, прекратите использование приложения.",
       privacy: [
         "Данные, которые вы вводите или создаете в приложении, сохраняются локально на устройстве: названия счетов, категории, балансы, долги, поля кредитных карт, даты платежей, заметки, снимки активов, регулярные доходы и расходы, базовая валюта, курсы, настройки напоминаний, режим приватности, логотипы счетов и результаты распознавания скриншотов. Распознавание по умолчанию выполняется на устройстве и сохраняется только после вашего подтверждения.",
-        "Основной учет активов работает без входа в аккаунт и без подключения банка. Покупки, подписки, восстановление покупок, возвраты и отзывы обрабатываются Apple App Store и StoreKit. Поиск иконок App Store отправляет ключевое слово и регион в Apple iTunes Search API. Информация, отправленная в поддержку, используется для обработки обращения.",
+        "Основной учет активов работает без входа в аккаунт и без подключения банка. Покупки, подписки, восстановление покупок, возвраты и отзывы обрабатываются Apple App Store и StoreKit. Когда пользователи Pro загружают, получают или включают автоматическую синхронизацию, ArkFlow экспортирует данные в файл `.arkflowbackup` и сохраняет его в вашем контейнере iCloud Drive либо читает резервную копию из него. Поиск иконок App Store отправляет ключевое слово и регион в Apple iTunes Search API. Информация, отправленная в поддержку, используется для обработки обращения.",
         "ArkFlow читает изображения только тогда, когда вы сами их выбираете. Загруженные логотипы счетов и изображения карт хранятся на устройстве и не отправляются на серверы ArkFlow.",
         "ArkFlow может использовать локальные уведомления о датах выписки, платежа или обновления данных. Они планируются на вашем устройстве и могут быть отключены в системных настройках.",
         "Покупки и подписки ArkFlow Pro обрабатываются Apple. Приложение использует StoreKit для загрузки продуктов, покупки, восстановления и определения доступа Pro по действительным транзакциям Apple. Цены, продление, отмена и возврат регулируются интерфейсом и правилами Apple.",
         "Названия, иконки, товарные знаки и материалы сторонних приложений принадлежат их владельцам. Поиск иконок App Store нужен только для выбора локального визуального идентификатора счета и не означает связь, разрешение, спонсорство или поддержку со стороны соответствующего приложения, разработчика, правообладателя или Apple.",
         "Мы не требуем аккаунт ArkFlow для текущих локальных функций, не подключаем автоматически банки, брокеров или платежные счета, не продаем ваши данные об активах и в текущей версии не загружаем их на серверы ArkFlow для централизованного хранения.",
-        "В приложении можно удалить счет, заменить или очистить логотип. При удалении приложения обычно удаляются данные его локального контейнера; резервные копии iOS, перенос устройства или будущая синхронизация могут влиять на хранение и восстановление.",
-        "Если в будущем ArkFlow добавит iCloud/CloudKit, стороннее AI-распознавание, аккаунты, аналитику или другие функции, меняющие обработку данных, мы обновим эту политику до запуска и при необходимости запросим согласие.",
+        "В приложении можно удалить счет, заменить или очистить логотип, а также удалить в настройках файлы резервных копий ArkFlow из вашего контейнера iCloud Drive. При удалении приложения обычно удаляются локальные данные, но уже сохраненные в iCloud Drive резервные копии не обязательно удаляются. Резервные копии iOS, перенос устройства и настройки iCloud могут влиять на хранение и восстановление.",
+        "Если в будущем ArkFlow добавит стороннее AI-распознавание, аккаунты, аналитику, облачную синхронизацию в реальном времени или другие функции, меняющие обработку данных, мы обновим эту политику до запуска и при необходимости запросим согласие.",
         "По вопросам конфиденциальности обращайтесь через страницу поддержки."
       ],
       terms: [
