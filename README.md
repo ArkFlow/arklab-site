@@ -8,6 +8,8 @@ The site is static and multilingual. `i18n.js` renders a top-right language sele
 
 The Simplified Chinese legal text remains the authoritative version. Other language versions are provided for reading convenience.
 
+Last legal copy sync: 2026-07-03 (privacy, terms, and i18n analytics consent disclosure).
+
 Current public GitHub Pages URLs:
 
 - `https://arkflow.github.io/arklab-site/`
