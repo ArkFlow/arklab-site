@@ -715,3 +715,5 @@
   initLanguageSelect(initial);
   setLanguage(initial, false);
 })();
+
+// Legal copy sync: 2026-07-03 analytics consent disclosure.
